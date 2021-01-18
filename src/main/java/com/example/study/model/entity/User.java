@@ -2,6 +2,7 @@ package com.example.study.model.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -9,6 +10,8 @@ import java.time.LocalDateTime;
 @Data
 // 모든 매개변수가 들어가는 user 생성
 @AllArgsConstructor
+// 기본 생성자
+@NoArgsConstructor
 @Entity
 //@Table(name = "User")
 public class User {
@@ -24,7 +27,4 @@ public class User {
     private LocalDateTime updatedAt;
     private String updatedBy;
 
-    public User() {
-
-    }
 }
