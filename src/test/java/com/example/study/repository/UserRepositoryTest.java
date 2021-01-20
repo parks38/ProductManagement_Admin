@@ -1,13 +1,11 @@
 package com.example.study.repository;
 
 import com.example.study.StudyApplicationTests;
+import com.example.study.model.entity.Item;
 import com.example.study.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import sun.jvm.hotspot.utilities.Assert;
 
 import javax.transaction.Transactional;
 import java.time.LocalDateTime;
@@ -18,28 +16,32 @@ public class UserRepositoryTest extends StudyApplicationTests {
     @Autowired
     //Dependency Injection (DI) - 의존성 주입
     private UserRepository userRepository;
+
     public void create() {
         // 값을 object 로 설정
         User user = new User();
-        user.setAccount("TestUser03");
-        user.setEmail("TestUser03@gmail.com");
-        user.setPhoneNumber("010-1111-3333");
+        user.setAccount("TestUser04");
+        user.setEmail("TestUser04@gmail.com");
+        user.setPhoneNumber("010-1111-4444");
         user.setCreatedAt(LocalDateTime.now());
-        user.setCreatedBy("TestUser3");
+        user.setCreatedBy("TestUser4");
 
         User newUser = userRepository.save(user);
 
         System.out.println(newUser);
     }
-
+    @Test
+    @Transactional
     public void read() {
-        Optional<User> user = userRepository.findById(4L);
+        Optional<User> user = userRepository.findByAccount("TestUser03");
         // Optional<T> findById(ID id)
 
-        // 존재할 경우에는
+        //OrderDetailList item find
         user.ifPresent(selectUser -> {
-            System.out.println("user: " + selectUser);
-            System.out.println("email:" + selectUser.getEmail());
+            selectUser.getOrderDetailList().stream().forEach(detail -> {
+                Item item = detail.getItem();
+                System.out.println(item);
+            });
         });
     }
 
@@ -48,8 +50,8 @@ public class UserRepositoryTest extends StudyApplicationTests {
 
         // update 하기 위해서는 user이 존재해야함.
         user.ifPresent(selectUser -> {
-            selectUser.setAccount("TestUser04");
-            selectUser.setEmail("TestUser04@gmail.com");
+            selectUser.setAccount("TestUser01");
+            selectUser.setEmail("TestUser01@gmail.com");
             selectUser.setUpdatedAt(LocalDateTime.now());
             selectUser.setUpdatedBy("update method()");
 
@@ -58,7 +60,6 @@ public class UserRepositoryTest extends StudyApplicationTests {
 
     }
 
-    @Test
     public void delete() {
         Optional<User> user = userRepository.findById(1L);
 

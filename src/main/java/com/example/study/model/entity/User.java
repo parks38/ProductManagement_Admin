@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.List;
+
 // 기본 생성자 get, set method
 @Data
 // 모든 매개변수가 들어가는 user 생성
@@ -26,5 +28,11 @@ public class User {
     private String createdBy;
     private LocalDateTime updatedAt;
     private String updatedBy;
+
+    // 1 : (order) N
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
+    private List<OrderDetail> orderDetailList;
+
+
 
 }
