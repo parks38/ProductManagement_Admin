@@ -18,12 +18,39 @@ public class UserRepositoryTest extends StudyApplicationTests {
     private UserRepository userRepository;
 
     public void create() {
+<<<<<<< HEAD
 
+=======
+        // 값을 object 로 설정
+        User user = new User();
+        user.setAccount("TestUser04");
+        user.setEmail("TestUser04@gmail.com");
+        user.setPhoneNumber("010-1111-4444");
+        user.setCreatedAt(LocalDateTime.now());
+        user.setCreatedBy("TestUser4");
+
+        User newUser = userRepository.save(user);
+
+        System.out.println(newUser);
+>>>>>>> 948b0c30b0bec2a2f6a6ab09e75eae6ed2d8383f
     }
     @Test
     @Transactional
     public void read() {
+<<<<<<< HEAD
 
+=======
+        Optional<User> user = userRepository.findByAccount("TestUser03");
+        // Optional<T> findById(ID id)
+
+        //OrderDetailList item find
+        user.ifPresent(selectUser -> {
+            selectUser.getOrderDetailList().stream().forEach(detail -> {
+                Item item = detail.getItem();
+                System.out.println(item);
+            });
+        });
+>>>>>>> 948b0c30b0bec2a2f6a6ab09e75eae6ed2d8383f
     }
 
     public void update() {
