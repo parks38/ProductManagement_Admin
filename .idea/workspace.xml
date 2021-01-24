@@ -46,7 +46,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/repository/AdminUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/repository/AdminUserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/repository/CategoryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/repository/CategoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/CategoryRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/repository/OrderDetailRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/OrderDetailRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/repository/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/UserRepositoryTest.java" afterDir="false" />
@@ -341,7 +340,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java</url>
           <line>15</line>
-          <properties class="com.example.study.repository.ItemRepositoryTest" method="create">
+          <properties class="com.example.study.repository.ItemRepositoryTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
@@ -349,7 +348,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/study/repository/OrderDetailRepositoryTest.java</url>
           <line>15</line>
-          <properties class="com.example.study.repository.OrderDetailRepositoryTest" method="create">
+          <properties class="com.example.study.repository.OrderDetailRepositoryTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />
