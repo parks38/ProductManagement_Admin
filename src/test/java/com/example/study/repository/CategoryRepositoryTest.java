@@ -34,9 +34,13 @@ public class CategoryRepositoryTest extends StudyApplicationTests {
     }
     @Test
     public void read() {
-        Optional<Category> optionalCategory = categoryRepository.findById(1L);
+        String type = "COMPUTER";
+        // select * fom category where type = 'computer'
+        Optional<Category> optionalCategory = categoryRepository.findByType(type);
+
 
         optionalCategory.ifPresent(c -> {
+            Assertions.assertEquals(c.getType(), type);
             System.out.println(c.getId());
             System.out.println(c.getTitle());
             System.out.println(c.getType());
