@@ -10,6 +10,7 @@ import java.util.Optional;
 public class LoginUserAuditorAware implements AuditorAware<String> {
     @Override
     public Optional<String> getCurrentAuditor() {
+
         return Optional.of("AdminServer"); //default
     }
 }

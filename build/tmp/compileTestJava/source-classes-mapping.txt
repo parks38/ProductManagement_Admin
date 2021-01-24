@@ -10,7 +10,7 @@ com/example/study/repository/ItemRepositoryTest.java
  com.example.study.repository.ItemRepositoryTest
 com/example/study/repository/PartnerRepositoryTest.java
  com.example.study.repository.PartnerRepositoryTest
-com/example/study/repository/UserRepositoryTest.java
- com.example.study.repository.UserRepositoryTest
 com/example/study/repository/AdminUserRepositoryTest.java
  com.example.study.repository.AdminUserRepositoryTest
+com/example/study/repository/UserRepositoryTest.java
+ com.example.study.repository.UserRepositoryTest

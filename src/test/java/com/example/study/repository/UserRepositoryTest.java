@@ -1,5 +1,7 @@
 package com.example.study.repository;
 
+import com.component.LoginUserAuditorAware;
+import com.config.JpaConfig;
 import com.example.study.StudyApplicationTests;
 import com.example.study.model.entity.Item;
 import com.example.study.model.entity.OrderGroup;
@@ -7,11 +9,13 @@ import com.example.study.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Import;
 
 import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 import java.util.Optional;
 
+@Import({JpaConfig.class, LoginUserAuditorAware.class})
 public class UserRepositoryTest extends StudyApplicationTests {
 
     @Autowired
@@ -19,14 +23,14 @@ public class UserRepositoryTest extends StudyApplicationTests {
     private UserRepository userRepository;
     @Test
     public void create() {
-        String account = "Test03";
-        String password = "Test03";
+        String account = "Test04";
+        String password = "Test04";
         String status = "REGISTERED";
-        String email = "Test03@gmail.com ";
-        String phoneNumber = "010-1111-3333";
+        String email = "Test04@gmail.com ";
+        String phoneNumber = "010-1111-4444";
         LocalDateTime registeredAt = LocalDateTime.now();
-        LocalDateTime createdAt = LocalDateTime.now();
-        String createdBy = "AdminServer";
+//        LocalDateTime createdAt = LocalDateTime.now();
+//        String createdBy = "AdminServer";
 
         User user = new User();
         user.setAccount(account);
@@ -35,8 +39,13 @@ public class UserRepositoryTest extends StudyApplicationTests {
         user.setEmail(email);
         user.setPhoneNumber(phoneNumber);
         user.setRegisteredAt(registeredAt);
-        user.setCreatedAt(createdAt);
-        user.setCreatedBy(createdBy);
+//        user.setCreatedAt(createdAt);
+//        user.setCreatedBy(createdBy);
+
+        //builder 사용
+        User u = User.builder().account(account)
+                        .password(password).status(status)
+                        .email(email).build();
 
         User newUser = userRepository.save(user);
 
@@ -48,7 +57,9 @@ public class UserRepositoryTest extends StudyApplicationTests {
     @Transactional
     public void read() {
         User user = userRepository.findFirstByPhoneNumberOrderByIdDesc("010-1111-2222");
-        //exception 처리
+
+
+        //exception 처
         if(user != null) {
             // 주문 바구니 찾기
             user.getOrderGroupList().stream().forEach(orderGroup -> {

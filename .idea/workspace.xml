@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6395b201-4e3c-4407-b220-362d73177881" name="Default Changelist" comment="updated Admin Repository testing">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/component/LoginUserAuditorAware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/config/JpaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/AdminUserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/OrderGroupRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/PartnerRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -21,21 +16,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/AdminUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/AdminUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/Category.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/Item.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/OrderDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/OrderDetail.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/OrderGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/OrderGroup.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/Partner.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/Partner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/repository/CategoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/repository/CategoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/CategoryRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/CategoryRepositoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/ItemRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/ItemRepositoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/OrderDetailRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/OrderDetailRepositoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/UserRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/UserRepositoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/component/LoginUserAuditorAware.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/component/LoginUserAuditorAware.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/AdminUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/Category.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/Item.java" afterDir="false" />
@@ -43,10 +34,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/OrderGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/OrderGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/Partner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/Partner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/repository/AdminUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/repository/AdminUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/repository/CategoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/repository/AdminUserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/AdminUserRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/repository/OrderDetailRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/OrderDetailRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/repository/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/UserRepositoryTest.java" afterDir="false" />
     </list>
@@ -139,7 +127,7 @@
       <recent name="com.example.study.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdminUserRepositoryTest.create">
+  <component name="RunManager" selected="JUnit.UserRepositoryTest.create">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -198,7 +186,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderGroupRepositoryTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
@@ -207,7 +195,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.study.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.study.repository.OrderGroupRepositoryTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.study.repository.UserRepositoryTest" />
       <option name="METHOD_NAME" value="create" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -239,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRepositoryTest.create" />
         <item itemvalue="JUnit.AdminUserRepositoryTest.create" />
-        <item itemvalue="JUnit.UserRepositoryTest.read" />
         <item itemvalue="JUnit.AdminUserRepositoryTest" />
-        <item itemvalue="JUnit.OrderGroupRepositoryTest.create" />
         <item itemvalue="JUnit.OrderDetailRepositoryTest.create" />
+        <item itemvalue="JUnit.UserRepositoryTest.read" />
       </list>
     </recent_temporary>
   </component>
@@ -334,24 +322,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java</url>
-          <line>12</line>
+          <line>13</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java</url>
-          <line>15</line>
+          <line>16</line>
           <properties class="com.example.study.repository.ItemRepositoryTest">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/study/repository/OrderDetailRepositoryTest.java</url>
-          <line>15</line>
-          <properties class="com.example.study.repository.OrderDetailRepositoryTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
