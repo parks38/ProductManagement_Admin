@@ -8,33 +8,55 @@ com/component/LoginUserAuditorAware.java
  com.component.LoginUserAuditorAware
 com/example/study/repository/PartnerRepository.java
  com.example.study.repository.PartnerRepository
-com/example/study/model/entity/AdminUser.java
- com.example.study.model.entity.AdminUser
+com/example/study/StudyApplication.java
+ com.example.study.StudyApplication
 com/example/study/repository/OrderGroupRepository.java
  com.example.study.repository.OrderGroupRepository
 com/example/study/repository/AdminUserRepository.java
  com.example.study.repository.AdminUserRepository
 com/example/study/model/SearchParam.java
  com.example.study.model.SearchParam
-com/example/study/controller/GetController.java
- com.example.study.controller.GetController
-com/example/study/repository/ItemRepository.java
- com.example.study.repository.ItemRepository
 com/example/study/controller/PostController.java
  com.example.study.controller.PostController
-com/example/study/StudyApplication.java
- com.example.study.StudyApplication
+com/example/study/repository/ItemRepository.java
+ com.example.study.repository.ItemRepository
 com/example/study/model/entity/User.java
  com.example.study.model.entity.User
+ com.example.study.model.entity.User$UserBuilder
 com/example/study/model/entity/OrderGroup.java
  com.example.study.model.entity.OrderGroup
+ com.example.study.model.entity.OrderGroup$OrderGroupBuilder
 com/example/study/model/entity/Category.java
  com.example.study.model.entity.Category
-com/example/study/model/entity/OrderDetail.java
- com.example.study.model.entity.OrderDetail
-com/example/study/model/entity/Partner.java
- com.example.study.model.entity.Partner
-com/example/study/repository/UserRepository.java
- com.example.study.repository.UserRepository
+ com.example.study.model.entity.Category$CategoryBuilder
 com/example/study/model/entity/Item.java
  com.example.study.model.entity.Item
+ com.example.study.model.entity.Item$ItemBuilder
+com/example/study/model/entity/AdminUser.java
+ com.example.study.model.entity.AdminUser
+ com.example.study.model.entity.AdminUser$AdminUserBuilder
+com/example/study/model/entity/OrderDetail.java
+ com.example.study.model.entity.OrderDetail
+ com.example.study.model.entity.OrderDetail$OrderDetailBuilder
+com/example/study/model/entity/Partner.java
+ com.example.study.model.entity.Partner
+ com.example.study.model.entity.Partner$PartnerBuilder
+com/example/study/repository/UserRepository.java
+ com.example.study.repository.UserRepository
+com/example/study/ifs/CrudInterface.java
+ com.example.study.ifs.CrudInterface
+com/example/study/model/network/request/UserApiRequest.java
+ com.example.study.model.network.request.UserApiRequest
+ com.example.study.model.network.request.UserApiRequest$UserApiRequestBuilder
+com/example/study/model/network/Header.java
+ com.example.study.model.network.Header
+ com.example.study.model.network.Header$HeaderBuilder
+com/example/study/controller/GetController.java
+ com.example.study.controller.GetController
+com/example/study/model/network/response/UserApiResponse.java
+ com.example.study.model.network.response.UserApiResponse
+ com.example.study.model.network.response.UserApiResponse$UserApiResponseBuilder
+com/example/study/controller/api/UserApiController.java
+ com.example.study.controller.api.UserApiController
+com/example/study/service/UserApiLogicService.java
+ com.example.study.service.UserApiLogicService

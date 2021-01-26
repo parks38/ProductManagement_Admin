@@ -2,6 +2,7 @@ package com.example.study.controller;
 
 
 import com.example.study.model.SearchParam;
+import com.example.study.model.network.Header;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -43,6 +44,13 @@ public class GetController {
         System.out.println(searchParam.getPage());
         // { "account" : "", "email" : "" , "page" : 0 } JSON 형태
         return searchParam;
+    }
+
+    // Header Testing
+    @GetMapping("/header")
+    public Header getHeader() {
+        // {"resultcode" : "OK" , "description" : "OK" }
+        return Header.builder().resultCode("OK").description("OK").build();
     }
 
 }
