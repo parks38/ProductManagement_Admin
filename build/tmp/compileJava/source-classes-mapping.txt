@@ -29,15 +29,13 @@ com/example/study/model/entity/OrderGroup.java
 com/example/study/model/entity/Category.java
  com.example.study.model.entity.Category
  com.example.study.model.entity.Category$CategoryBuilder
-com/example/study/model/entity/Item.java
- com.example.study.model.entity.Item
- com.example.study.model.entity.Item$ItemBuilder
+com/example/study/controller/api/UserApiController.java
+ com.example.study.controller.api.UserApiController
 com/example/study/model/entity/AdminUser.java
  com.example.study.model.entity.AdminUser
  com.example.study.model.entity.AdminUser$AdminUserBuilder
-com/example/study/model/entity/OrderDetail.java
- com.example.study.model.entity.OrderDetail
- com.example.study.model.entity.OrderDetail$OrderDetailBuilder
+com/example/study/service/UserApiLogicService.java
+ com.example.study.service.UserApiLogicService
 com/example/study/model/entity/Partner.java
  com.example.study.model.entity.Partner
  com.example.study.model.entity.Partner$PartnerBuilder
@@ -45,18 +43,40 @@ com/example/study/repository/UserRepository.java
  com.example.study.repository.UserRepository
 com/example/study/ifs/CrudInterface.java
  com.example.study.ifs.CrudInterface
-com/example/study/model/network/request/UserApiRequest.java
- com.example.study.model.network.request.UserApiRequest
- com.example.study.model.network.request.UserApiRequest$UserApiRequestBuilder
+com/example/study/model/network/response/UserApiResponse.java
+ com.example.study.model.network.response.UserApiResponse
+ com.example.study.model.network.response.UserApiResponse$UserApiResponseBuilder
 com/example/study/model/network/Header.java
  com.example.study.model.network.Header
  com.example.study.model.network.Header$HeaderBuilder
 com/example/study/controller/GetController.java
  com.example.study.controller.GetController
-com/example/study/model/network/response/UserApiResponse.java
- com.example.study.model.network.response.UserApiResponse
- com.example.study.model.network.response.UserApiResponse$UserApiResponseBuilder
-com/example/study/controller/api/UserApiController.java
- com.example.study.controller.api.UserApiController
-com/example/study/service/UserApiLogicService.java
- com.example.study.service.UserApiLogicService
+com/example/study/model/network/request/UserApiRequest.java
+ com.example.study.model.network.request.UserApiRequest
+ com.example.study.model.network.request.UserApiRequest$UserApiRequestBuilder
+com/example/study/model/network/request/ItemApiRequest.java
+ com.example.study.model.network.request.ItemApiRequest
+ com.example.study.model.network.request.ItemApiRequest$ItemApiRequestBuilder
+com/example/study/model/network/response/ItemApiResponse.java
+ com.example.study.model.network.response.ItemApiResponse
+ com.example.study.model.network.response.ItemApiResponse$ItemApiResponseBuilder
+com/example/study/model/entity/Item.java
+ com.example.study.model.entity.Item
+ com.example.study.model.entity.Item$ItemBuilder
+com/example/study/model/entity/OrderDetail.java
+ com.example.study.model.entity.OrderDetail
+ com.example.study.model.entity.OrderDetail$OrderDetailBuilder
+com/example/study/controller/api/ItemApiController.java
+ com.example.study.controller.api.ItemApiController
+com/example/study/service/ItemApiLogicService.java
+ com.example.study.service.ItemApiLogicService
+com/example/study/model/network/request/OrderGroupApiRequest.java
+ com.example.study.model.network.request.OrderGroupApiRequest
+ com.example.study.model.network.request.OrderGroupApiRequest$OrderGroupApiRequestBuilder
+com/example/study/model/network/response/OrderGroupApiResponse.java
+ com.example.study.model.network.response.OrderGroupApiResponse
+ com.example.study.model.network.response.OrderGroupApiResponse$OrderGroupApiResponseBuilder
+com/example/study/controller/api/OrderGroupApiController.java
+ com.example.study.controller.api.OrderGroupApiController
+com/example/study/service/OrderDetailApiLogicService.java
+ com.example.study.service.OrderDetailApiLogicService
