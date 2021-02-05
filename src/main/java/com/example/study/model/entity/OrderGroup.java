@@ -25,7 +25,10 @@ public class OrderGroup {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Enumerated(EnumType.STRING)
     private String status;
+
     private String orderType; // 일괄/ 개별
     private String revAddress;
     private String revName;

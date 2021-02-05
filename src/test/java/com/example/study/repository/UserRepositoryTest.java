@@ -6,6 +6,7 @@ import com.example.study.StudyApplicationTests;
 import com.example.study.model.entity.Item;
 import com.example.study.model.entity.OrderGroup;
 import com.example.study.model.entity.User;
+import com.example.study.model.enumclass.UserStatus;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,7 +26,8 @@ public class UserRepositoryTest extends StudyApplicationTests {
     public void create() {
         String account = "Test04";
         String password = "Test04";
-        String status = "REGISTERED";
+        // enum 형태로 변경해주기
+        UserStatus status = UserStatus.REGISTERED;
         String email = "Test04@gmail.com ";
         String phoneNumber = "010-1111-4444";
         LocalDateTime registeredAt = LocalDateTime.now();

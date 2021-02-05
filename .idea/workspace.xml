@@ -5,9 +5,80 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6395b201-4e3c-4407-b220-362d73177881" name="Default Changelist" comment="updated Admin Repository testing - @Builder, @Accessor, @Auditor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/controller/CrudController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/controller/api/PartnerApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/enumclass/ItemStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/enumclass/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/Pagination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/request/PartnerApiRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/response/PartnerApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/response/UserOrderInfoApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/service/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/study/service/PartnerApiLogicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/controller/api/ItemApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/controller/api/ItemApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/controller/api/OrderGroupApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/controller/api/OrderGroupApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/controller/api/UserApiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/controller/api/UserApiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/Item$ItemBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/Item$ItemBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/OrderGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/OrderGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/Header$HeaderBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/Header$HeaderBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/Header.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/request/ItemApiRequest$ItemApiRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/request/ItemApiRequest$ItemApiRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/request/ItemApiRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/request/ItemApiRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/request/UserApiRequest$UserApiRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/request/UserApiRequest$UserApiRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/request/UserApiRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/request/UserApiRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/response/ItemApiResponse$ItemApiResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/response/ItemApiResponse$ItemApiResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/response/ItemApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/response/ItemApiResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/response/UserApiResponse$UserApiResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/response/UserApiResponse$UserApiResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/response/UserApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/model/network/response/UserApiResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/repository/PartnerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/repository/PartnerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/service/ItemApiLogicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/service/ItemApiLogicService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/service/OrderDetailApiLogicService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/study/service/UserApiLogicService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/study/service/UserApiLogicService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/AdminUserRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/AdminUserRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/CategoryRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/CategoryRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/ItemRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/ItemRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/OrderDetailRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/OrderDetailRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/OrderGroupRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/OrderGroupRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/PartnerRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/PartnerRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/UserRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/example/study/repository/UserRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/controller/api/ItemApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/controller/api/ItemApiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/controller/api/OrderGroupApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/controller/api/OrderGroupApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/service/OrderDetailApiLogicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/service/OrderGroupApiLogicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/controller/api/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/controller/api/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/OrderGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/OrderGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/request/ItemApiRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/request/ItemApiRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/request/UserApiRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/request/UserApiRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/response/ItemApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/response/ItemApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/response/OrderGroupApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/response/OrderGroupApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/response/UserApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/model/network/response/UserApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/repository/PartnerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/repository/PartnerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/service/ItemApiLogicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/service/ItemApiLogicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/service/OrderGroupApiLogicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/service/OrderGroupApiLogicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/study/service/UserApiLogicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/study/service/UserApiLogicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/study/repository/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/study/repository/UserRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +119,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -85,6 +157,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/example/study/sample" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -95,6 +168,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.study.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/example/study/sample" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -106,13 +185,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.StudyApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,17 +229,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderDetailRepositoryTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CategorySample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="study.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.study.repository.*" />
+          <option name="PATTERN" value="com.example.study.sample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.study.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.study.repository.OrderDetailRepositoryTest" />
-      <option name="METHOD_NAME" value="create" />
+      <option name="PACKAGE_NAME" value="com.example.study.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.example.study.sample.CategorySample" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategorySample.createSample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="study.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.study.sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.study.sample" />
+      <option name="MAIN_CLASS_NAME" value="com.example.study.sample.CategorySample" />
+      <option name="METHOD_NAME" value="createSample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,22 +276,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTest.read" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="study.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.study.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.study.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.study.repository.UserRepositoryTest" />
-      <option name="METHOD_NAME" value="read" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="study.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.study.StudyApplication" />
@@ -205,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CategorySample.createSample" />
+        <item itemvalue="JUnit.CategorySample" />
         <item itemvalue="JUnit.UserRepositoryTest.create" />
         <item itemvalue="JUnit.AdminUserRepositoryTest.create" />
         <item itemvalue="JUnit.AdminUserRepositoryTest" />
-        <item itemvalue="JUnit.OrderDetailRepositoryTest.create" />
-        <item itemvalue="JUnit.UserRepositoryTest.read" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +313,8 @@
       <workItem from="1611879404552" duration="8094000" />
       <workItem from="1611894630534" duration="22000" />
       <workItem from="1611926894335" duration="673000" />
-      <workItem from="1612173368626" duration="10618000" />
+      <workItem from="1612173368626" duration="18605000" />
+      <workItem from="1612490035998" duration="12983000" />
     </task>
     <task id="LOCAL-00001" summary="updated JPA CRUD settings">
       <created>1610958225148</created>
@@ -291,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612269816620</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="order Api create">
+      <created>1612271729701</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612271729701</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,24 +404,21 @@
     <MESSAGE value="updated Admin Repository testing" />
     <MESSAGE value="updated Admin Repository testing - @Builder, @Accessor, @Auditor" />
     <MESSAGE value="item Api CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="item Api CRUD" />
+    <MESSAGE value="order Api create" />
+    <option name="LAST_COMMIT_MESSAGE" value="order Api create" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/study/repository/ItemRepositoryTest.java</url>
-          <line>16</line>
-          <properties class="com.example.study.repository.ItemRepositoryTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
